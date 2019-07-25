@@ -12,15 +12,15 @@ Durante esse desafio você dará início a um novo projeto no Bootcamp, esse pro
 
 Esse projeto também será utilizado para a certificação do bootcamp, então bora pro código!
 
-Aplicação
+Aplicação:
 A aplicação que iremos dar início ao desenvolvimento a partir de agora é um app agregador de eventos para desenvolvedores chamado Meetapp (um acrônimo à Meetup + App).
 
 Nesse primeiro desafio vamos criar algumas funcionalidades básicas que aprendemos ao longo das aulas até aqui.
 
-Funcionalidades
+Funcionalidades:
 Abaixo estão descritas as funcionalidades que você deve adicionar em sua aplicação.
 
-Autenticação
+Autenticação:
 Permita que um usuário se autentique em sua aplicação utilizando e-mail e senha.
 
 * A autenticação deve ser feita utilizando JWT.
