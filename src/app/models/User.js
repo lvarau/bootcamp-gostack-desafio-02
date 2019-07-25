@@ -10,6 +10,7 @@ class User extends Model {
         provider: Sequelize.BOOLEAN
       },
       {
+        /** Passing database connection */
         sequelize
       }
     );
