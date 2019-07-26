@@ -1,6 +1,7 @@
 import User from '../models/User';
 
 class UserController {
+  /** Store users */
   async store(req, res) {
     /** veryfying email */
     const userExists = await User.findOne({ where: { email: req.body.email } });
@@ -17,6 +18,12 @@ class UserController {
       name,
       email
     });
+  }
+
+  /** Update authenticated users */
+  async update(req, res) {
+    console.log(req.userId);
+    return res.json({ ok: true });
   }
 }
 
